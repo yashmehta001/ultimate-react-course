@@ -6,7 +6,7 @@ import { createOrder } from "../../services/apiRestaurant";
 // https://uibakery.io/regex-library/phone-number
 const isValidPhone = (str) =>
   /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/.test(
-    str
+    str,
   );
 
 const fakeCart = [
@@ -83,7 +83,11 @@ function CreateOrder() {
 
         <div>
           <input type="hidden" name="cart" value={JSON.stringify(cart)} />
-          <button disabled={isSubmitting} type="primary">
+          <button
+            disabled={isSubmitting}
+            type="primary"
+            className="inline-block bg-yellow-500 px-4 tracking-wide rounded-full py-3 font-semibold uppercase text-stone-800 hover:bg-yellow-400 transition-colors duration-300 focus:outline-none focus:ring focus:bg-yellow-300 focus:ring-offset-2 active:bg-slate-400 disabled:cursor-not-allowed"
+          >
             {isSubmitting ? "Placing order...." : `Order now`}
           </button>
         </div>
