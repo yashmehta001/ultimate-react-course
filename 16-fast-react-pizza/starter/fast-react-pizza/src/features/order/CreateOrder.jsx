@@ -48,13 +48,13 @@ function CreateOrder() {
       <Form method="POST">
         <div>
           <label>First Name</label>
-          <input type="text" name="customer" required />
+          <input className="input" type="text" name="customer" required />
         </div>
 
         <div>
           <label>Phone number</label>
           <div>
-            <input type="tel" name="phone" required />
+            <input className="input" type="tel" name="phone" required />
           </div>
           {formErrors?.phone && (
             <p className="mt-2 rounded-md bg-red-100 p-2 text-xs text-red-700">
@@ -66,7 +66,7 @@ function CreateOrder() {
         <div>
           <label>Address</label>
           <div>
-            <input type="text" name="address" required />
+            <input className="input" type="text" name="address" required />
           </div>
         </div>
 
@@ -86,7 +86,7 @@ function CreateOrder() {
           <button
             disabled={isSubmitting}
             type="primary"
-            className="inline-block bg-yellow-500 px-4 tracking-wide rounded-full py-3 font-semibold uppercase text-stone-800 hover:bg-yellow-400 transition-colors duration-300 focus:outline-none focus:ring focus:bg-yellow-300 focus:ring-offset-2 active:bg-slate-400 disabled:cursor-not-allowed"
+            className="inline-block rounded-full bg-yellow-500 px-4 py-3 font-semibold uppercase tracking-wide text-stone-800 transition-colors duration-300 hover:bg-yellow-400 focus:bg-yellow-300 focus:outline-none focus:ring focus:ring-offset-2 active:bg-slate-400 disabled:cursor-not-allowed"
           >
             {isSubmitting ? "Placing order...." : `Order now`}
           </button>
