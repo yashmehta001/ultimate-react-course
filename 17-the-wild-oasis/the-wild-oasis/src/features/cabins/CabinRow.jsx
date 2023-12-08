@@ -46,6 +46,7 @@ const Discount = styled.div`
   color: var(--color-green-700);
 `;
 
+// eslint-disable-next-line react/prop-types
 function CabinRow({ cabin }) {
   const [showForm, setShowForm] = useState(false);
   const { isDeleting, deleteCabin } = useDeleteCabin();
