@@ -55,6 +55,7 @@ function CabinRow({ cabin }) {
   const { isCreating, createCabin } = useCreateCabin();
 
   const {
+    // eslint-disable-next-line react/prop-types
     id: cabinId,
     name,
     maxCapacity,
