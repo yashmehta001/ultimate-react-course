@@ -57,6 +57,7 @@ function CabinRow({ cabin }) {
   const {
     // eslint-disable-next-line react/prop-types
     id: cabinId,
+    // eslint-disable-next-line react/prop-types
     name,
     maxCapacity,
     regularPrice,
