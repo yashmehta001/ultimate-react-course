@@ -92,7 +92,12 @@ function BookingRow({
         </span>
       </Stacked>
 
-      <Tag type={statusToTagName[status]}>{status.replace("-", " ")}</Tag>
+      <Tag type={
+        statusToTagName[status]
+        }>{
+        // eslint-disable-next-line react/prop-types
+        status.replace("-", " ")
+        }</Tag>
 
       <Amount>{formatCurrency(totalPrice)}</Amount>
 
