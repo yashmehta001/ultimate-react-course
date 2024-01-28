@@ -102,6 +102,7 @@ const Footer = styled.footer`
 `;
 
 // A purely presentational component
+// eslint-disable-next-line react/prop-types
 function BookingDataBox({ booking }) {
   const {
     created_at,
