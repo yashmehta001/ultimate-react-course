@@ -105,6 +105,7 @@ const Footer = styled.footer`
 // eslint-disable-next-line react/prop-types
 function BookingDataBox({ booking }) {
   const {
+    // eslint-disable-next-line react/prop-types
     created_at,
     startDate,
     endDate,
