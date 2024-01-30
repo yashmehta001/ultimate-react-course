@@ -107,6 +107,7 @@ function BookingDataBox({ booking }) {
   const {
     // eslint-disable-next-line react/prop-types
     created_at,
+    // eslint-disable-next-line react/prop-types
     startDate,
     endDate,
     numNights,
