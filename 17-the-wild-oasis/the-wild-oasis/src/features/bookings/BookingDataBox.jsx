@@ -115,6 +115,7 @@ function BookingDataBox({ booking }) {
     numNights,
     // eslint-disable-next-line react/prop-types
     numGuests,
+    // eslint-disable-next-line react/prop-types
     cabinPrice,
     extrasPrice,
     totalPrice,
