@@ -121,6 +121,7 @@ function BookingDataBox({ booking }) {
     extrasPrice,
     // eslint-disable-next-line react/prop-types
     totalPrice,
+    // eslint-disable-next-line react/prop-types
     hasBreakfast,
     observations,
     isPaid,
