@@ -127,7 +127,13 @@ function BookingDataBox({ booking }) {
     observations,
     // eslint-disable-next-line react/prop-types
     isPaid,
-    guests: { fullName: guestName, email, country, countryFlag, nationalID },
+    guests: { 
+      fullName: guestName, 
+      email, 
+      country, 
+      countryFlag, 
+      nationalID 
+    },
     cabins: { name: cabinName },
   } = booking;
 
