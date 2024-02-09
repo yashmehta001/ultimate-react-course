@@ -123,6 +123,7 @@ function BookingDataBox({ booking }) {
     totalPrice,
     // eslint-disable-next-line react/prop-types
     hasBreakfast,
+    // eslint-disable-next-line react/prop-types
     observations,
     isPaid,
     guests: { fullName: guestName, email, country, countryFlag, nationalID },
