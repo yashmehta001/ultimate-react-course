@@ -130,7 +130,9 @@ function BookingDataBox({ booking }) {
     guests: { 
       fullName: guestName, 
       email, 
+      // eslint-disable-next-line react/prop-types
       country, 
+      // eslint-disable-next-line react/prop-types
       countryFlag, 
       // eslint-disable-next-line react/prop-types
       nationalID 
