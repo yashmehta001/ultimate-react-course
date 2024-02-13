@@ -127,14 +127,12 @@ function BookingDataBox({ booking }) {
     observations,
     // eslint-disable-next-line react/prop-types
     isPaid,
+    // eslint-disable-next-line react/prop-types
     guests: { 
       fullName: guestName, 
       email, 
-      // eslint-disable-next-line react/prop-types
       country, 
-      // eslint-disable-next-line react/prop-types
       countryFlag, 
-      // eslint-disable-next-line react/prop-types
       nationalID 
     },
     cabins: { name: cabinName },
