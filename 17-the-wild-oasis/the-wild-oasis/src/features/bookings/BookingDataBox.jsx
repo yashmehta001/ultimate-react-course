@@ -128,7 +128,8 @@ function BookingDataBox({ booking }) {
     // eslint-disable-next-line react/prop-types
     isPaid,
     // eslint-disable-next-line react/prop-types
-    guests: { 
+    guests: {
+      // eslint-disable-next-line react/prop-types
       fullName: guestName, 
       email, 
       country, 
