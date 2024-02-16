@@ -133,6 +133,7 @@ function BookingDataBox({ booking }) {
       fullName: guestName, 
       // eslint-disable-next-line react/prop-types
       email, 
+      // eslint-disable-next-line react/prop-types
       country, 
       countryFlag, 
       nationalID 
