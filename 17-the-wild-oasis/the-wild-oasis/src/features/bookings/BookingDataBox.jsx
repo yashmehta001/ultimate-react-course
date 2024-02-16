@@ -135,6 +135,7 @@ function BookingDataBox({ booking }) {
       email, 
       // eslint-disable-next-line react/prop-types
       country, 
+      // eslint-disable-next-line react/prop-types
       countryFlag, 
       nationalID 
     },
