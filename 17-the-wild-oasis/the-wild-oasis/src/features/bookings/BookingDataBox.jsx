@@ -137,6 +137,7 @@ function BookingDataBox({ booking }) {
       country, 
       // eslint-disable-next-line react/prop-types
       countryFlag, 
+      // eslint-disable-next-line react/prop-types
       nationalID 
     },
     cabins: { name: cabinName },
