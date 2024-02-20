@@ -140,6 +140,7 @@ function BookingDataBox({ booking }) {
       // eslint-disable-next-line react/prop-types
       nationalID 
     },
+    // eslint-disable-next-line react/prop-types
     cabins: { name: cabinName },
   } = booking;
 
