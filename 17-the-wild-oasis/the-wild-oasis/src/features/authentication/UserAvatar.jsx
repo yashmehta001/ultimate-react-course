@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// eslint-disable-next-line no-unused-vars
 const StyledUserAvatar = styled.div`
   display: flex;
   gap: 1.2rem;
