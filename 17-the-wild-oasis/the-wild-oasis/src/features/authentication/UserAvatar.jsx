@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars, react-refresh/only-export-components
 const StyledUserAvatar = styled.div`
   display: flex;
   gap: 1.2rem;
