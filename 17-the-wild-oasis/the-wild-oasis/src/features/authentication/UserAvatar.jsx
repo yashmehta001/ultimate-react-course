@@ -10,7 +10,7 @@ const StyledUserAvatar = styled.div`
   color: var(--color-grey-600);
 `;
 
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars, react-refresh/only-export-components
 const Avatar = styled.img`
   display: block;
   width: 4rem;
