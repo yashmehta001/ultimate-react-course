@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// eslint-disable-next-line no-unused-vars
 const StyledErrorFallback = styled.main`
   height: 100vh;
   background-color: var(--color-grey-50);
